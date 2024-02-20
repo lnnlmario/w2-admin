@@ -1,6 +1,12 @@
 <script setup lang="ts">
+import HelloWorld from '@/components/HelloWorld.vue';
+
+const msg = ref('home page.')
 </script>
 
 <template>
-  <main text-green-300>Home page.</main>
+  <main text-pink>
+    {{ msg }}
+    <HelloWorld />
+  </main>
 </template>
