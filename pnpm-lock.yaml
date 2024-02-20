@@ -4,6 +4,9 @@ dependencies:
   element-plus:
     specifier: ^2.5.6
     version: registry.npmmirror.com/element-plus@2.5.6(vue@3.4.15)
+  minireset.css:
+    specifier: ^0.0.7
+    version: registry.npmmirror.com/minireset.css@0.0.7
   pinia:
     specifier: ^2.1.7
     version: registry.npmmirror.com/pinia@2.1.7(typescript@5.3.2)(vue@3.4.15)
@@ -3717,6 +3720,12 @@ packages:
     version: 7.0.4
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
+
+  registry.npmmirror.com/minireset.css@0.0.7:
+    resolution: {integrity: sha512-raWKK2aHP/MI4Yu72dU6hade1YFuoyDQtSUi/FiIZfeRHjgL81uN/nFvG2aoAr+mseRc3jpg47jQqx1/+6w+kQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/minireset.css/-/minireset.css-0.0.7.tgz}
+    name: minireset.css
+    version: 0.0.7
+    dev: false
 
   registry.npmmirror.com/mlly@1.5.0:
     resolution: {integrity: sha512-NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mlly/-/mlly-1.5.0.tgz}

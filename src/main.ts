@@ -1,5 +1,3 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
@@ -8,6 +6,9 @@ import router from './router'
 
 // 导入 Unocss
 import 'uno.css'
+
+import 'minireset.css/minireset.min.css'
+import './assets/main.css'
 
 const app = createApp(App)
 

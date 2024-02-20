@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <h1 bg-pink>
     登录界面
-  </div>
+  </h1>
 </template>
 
 <script setup lang="ts">
