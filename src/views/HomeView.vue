@@ -4,7 +4,7 @@ const msg = ref('home page.')
 
 <template>
   <main text-pink>
-    {{ msg }}
+    {{ msg }}<el-tag>好</el-tag>
     <HelloWorld />
   </main>
 </template>
