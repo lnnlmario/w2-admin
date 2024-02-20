@@ -1,6 +1,6 @@
 # w2-admin
 
-This template should help get you started developing with Vue 3 in Vite.
+后台管理系统
 
 ## Recommended IDE Setup
 
