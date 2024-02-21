@@ -18,6 +18,7 @@
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "minireset.css": "^0.0.7",
+    "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
@@ -27,6 +28,7 @@
     "@tsconfig/node20": "^20.1.2",
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.10",
+    "@types/nprogress": "^0.2.3",
     "@unocss/preset-attributify": "^0.58.5",
     "@unocss/preset-icons": "^0.58.5",
     "@unocss/preset-uno": "^0.58.5",
