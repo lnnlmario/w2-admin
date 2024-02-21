@@ -2,17 +2,16 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 import { useUserStore } from '@/stores/modules/user'
 
-const store = useUserStore()
-
 // 创建axios实例
 const instance = axios.create({
-  baseURL: import.meta.env.BASE_URL,
+  baseURL: import.meta.env.VITE_BASE_URL,
   timeout: 5000
 })
 
 // request拦截器
 instance.interceptors.request.use(
   (config) => {
+    const store = useUserStore()
     if (store.token) {
       config.headers['X-Token'] = store.token
     }

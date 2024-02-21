@@ -4,3 +4,5 @@ export interface LoginFormData {
   // 验证码
   code: string
 }
+
+export type LoginResponseData = { token: string }

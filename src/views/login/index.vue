@@ -25,15 +25,20 @@
 </template>
 
 <script setup lang="ts">
+import router from '@/router';
+import { useUserStore } from '@/stores/modules/user'
+
 const APP_TITLE = import.meta.env.VITE_APP_TITLE
 
 const formData = reactive({
   username: '',
-  password: ''
+  password: '',
+  code: ''
 })
 
+const store = useUserStore()
 const login = async () => {
-  console.log('login.')
+  store.login(formData).then(() => router.replace('/'))
 }
 </script>
 
