@@ -5,7 +5,7 @@
         <div
           class="max-w-md text-base-content p-4 bg-gray bg-opacity-25 rounded-md flex flex-col justify-center items-center">
           <div class="mx-5 mb-5 mt-5 font-semibold">
-            <h1 text-white text-3xl>vue admin</h1>
+            <h1 text-white text-3xl>{{ APP_TITLE }}</h1>
           </div>
           <el-form :model="formData" w-96>
             <el-form-item>
@@ -25,6 +25,8 @@
 </template>
 
 <script setup lang="ts">
+const APP_TITLE = import.meta.env.VITE_APP_TITLE
+
 const formData = reactive({
   username: '',
   password: ''
