@@ -35,7 +35,7 @@ const login = async () => {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
 .login {
   background-image: url("/src/assets/images/login-background.webp");
   background-size: 100% 100%;
